@@ -1,0 +1,49 @@
+* { font-family: "SF Pro Text", "Segoe UI", sans-serif; color: #172A35; font-size: 13px; }
+#root, #page { background: #F5F7F8; }
+#nav { background: #0B1D27; border: 0; }
+#brandIcon { border-radius: 10px; }
+#logo { color: #FFFFFF; font-size: 18px; font-weight: 750; letter-spacing: .4px; }
+#navLabel { color: #6F909E; font-size: 10px; font-weight: 800; letter-spacing: 1.6px; padding: 0 10px 5px 10px; }
+#navButton { color: #B8CBD3; text-align: left; padding: 11px 13px; border: 0; border-radius: 7px; background: transparent; font-weight: 600; }
+#navButton:hover { background: #132E3A; color: #FFFFFF; }
+#navButton:checked { background: #DDF4F0; color: #075E54; }
+#privacy { color: #7897A4; font-size: 10px; line-height: 1.45; border-top: 1px solid #1A3541; padding-top: 14px; }
+#eyebrow { color: #607782; font-size: 10px; font-weight: 800; letter-spacing: 1.4px; }
+#heading { color: #102733; font-size: 28px; font-weight: 700; }
+#metric, #panel, #detail { background: #FFFFFF; border: 1px solid #DDE5E8; border-radius: 10px; }
+#metric { min-height: 70px; }
+#metricValue { color: #102733; font-size: 24px; font-weight: 750; }
+#journey { background: #EAF3F4; border: 1px solid #D5E3E6; border-radius: 9px; }
+#journeyNumber { background: #087F70; color: #FFFFFF; border-radius: 11px; min-width: 22px; max-width: 22px; min-height: 22px; max-height: 22px; qproperty-alignment: AlignCenter; font-size: 11px; font-weight: 800; }
+#journeyText { color: #294550; font-size: 12px; font-weight: 650; }
+#guideStep { background: #FFFFFF; border: 1px solid #DDE5E8; border-radius: 8px; }
+#stepNumber { color: #087F70; font-size: 20px; font-weight: 800; min-width: 42px; }
+#stepTitle { color: #102733; font-size: 15px; font-weight: 700; }
+QPushButton { min-height: 38px; padding: 0 14px; background: #FFFFFF; border: 1px solid #CCD8DD; border-radius: 7px; font-weight: 600; }
+QPushButton:hover { border-color: #087F70; background: #F2F9F7; }
+QPushButton:pressed { background: #E2F1EE; }
+QPushButton:focus { border: 2px solid #087F70; }
+#primary { background: #087F70; color: #FFFFFF; border: 0; padding: 0 18px; }
+#primary:hover { background: #066A5E; }
+#primary:disabled { background: #9AB8B2; color: #F2F6F5; }
+QLineEdit { min-height: 40px; padding: 0 12px; border: 1px solid #CCD8DD; border-radius: 7px; background: #FAFBFC; }
+QLineEdit:focus { border: 2px solid #087F70; background: #FFFFFF; }
+QSpinBox, QComboBox { min-height: 38px; padding: 0 9px; border: 1px solid #CCD8DD; border-radius: 7px; background: #FFFFFF; }
+QCheckBox { min-height: 38px; spacing: 9px; }
+QDialog { background: #F5F7F8; }
+QTextEdit { background: #FFFFFF; border: 1px solid #CCD8DD; border-radius: 7px; padding: 10px; font-size: 14px; }
+QTextEdit:focus { border: 2px solid #087F70; }
+QTableWidget { background: #FFFFFF; border: 1px solid #DDE5E8; border-radius: 7px; gridline-color: #E8EEF0; }
+QHeaderView::section { background: #EDF2F4; color: #354E5A; padding: 9px; border: 0; font-weight: 700; }
+#error { color: #B42318; background: #FEF3F2; border: 1px solid #FECACA; border-radius: 7px; padding: 10px; }
+QListWidget { border: 0; background: #FFFFFF; outline: 0; }
+QListWidget::item { padding: 13px 12px; margin: 2px 0; border-radius: 7px; color: #294550; border-bottom: 1px solid #EDF1F3; }
+QListWidget::item:selected { background: #E4F4F1; color: #075E54; }
+QListWidget::item:hover { background: #F3F6F7; }
+#detailTitle { font-size: 25px; font-weight: 720; color: #102733; }
+#muted { color: #607782; font-size: 12px; }
+#emptyState { color: #78909A; font-size: 15px; padding: 40px; }
+#body { color: #354E5A; font-size: 14px; line-height: 1.5; }
+#badge { color: #087F70; font-size: 11px; font-weight: 800; letter-spacing: 1px; }
+#reason { background: #F2F7F8; border: 1px solid #DDE8EB; border-radius: 8px; padding: 15px; line-height: 1.5; }
+#safety { background: #FFF8E8; color: #694B0E; border: 1px solid #F0DBA3; border-radius: 8px; padding: 13px; }
